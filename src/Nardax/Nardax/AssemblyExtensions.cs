@@ -6,6 +6,7 @@ using System.Reflection;
 
 namespace Nardax
 {
+    // Hitta AppSettings-värden utifrån Assembly
     public static class AssemblyExtensions
     {
         public static string GetAppSettingsValue(this Assembly assembly, string key)
