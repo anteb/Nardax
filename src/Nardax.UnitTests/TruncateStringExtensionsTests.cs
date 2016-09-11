@@ -7,7 +7,8 @@ namespace Nardax.Tests
     public class TruncateStringExtensionsTests
     {
         private string _value;
-
+        yyyyyyyyyyyyy
+            yyyyyyyyyyyyyy
         [TestInitialize]
         public void TestInitialize()
         {

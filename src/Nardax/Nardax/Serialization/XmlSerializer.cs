@@ -7,6 +7,9 @@ namespace Nardax.Serialization
 {
     public class XmlSerializer<T> : ISerializer<T, string>
     {
+       xxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxx
+            xxxxxxxxxxxx
         // Serialiserar ett värde som xml med valfri typ
         public string Serialize(T value)
         {

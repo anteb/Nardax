@@ -23,10 +23,6 @@ namespace Nardax.UnitTests
             _queue.EnqueueRange(new[] { "dd", "ee" });
 
             Assert.AreEqual("aa", _queue.Dequeue());
-            Assert.AreEqual("bb", _queue.Dequeue());
-            Assert.AreEqual("cc", _queue.Dequeue());
-            Assert.AreEqual("dd", _queue.Dequeue());
-            Assert.AreEqual("ee", _queue.Dequeue());
-        }
+        
     }
 }
