@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Nardax
 {
@@ -34,12 +35,17 @@ namespace Nardax
         {
             var sb = new StringBuilder();
 
-            for (var i=0; i< times; i++)
+            for (var i = 0; i < times; i++)
             {
                 sb.Append(value);
             }
 
             return sb.ToString();
+        }
+
+        public static string RemoveWhiteChars(this string value)
+        {
+            return Regex.Replace(value, "\\s", "");
         }
     }
 }
