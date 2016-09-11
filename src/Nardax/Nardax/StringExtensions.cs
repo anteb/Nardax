@@ -46,6 +46,6 @@ namespace Nardax
         public static string RemoveWhiteChars(this string value)
         {
             return Regex.Replace(value, "\\s", "");
-        }
+        }        
     }
 }
