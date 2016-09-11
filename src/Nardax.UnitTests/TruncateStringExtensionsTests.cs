@@ -13,7 +13,7 @@ namespace Nardax.Tests
         public void TestInitialize()
         {
             _value = "123456789";
-        }
+        }iiiiiiii
 
         [TestMethod]
         public void TruncateLeft_ValueIsLarger_TruncateRemovesLeftSide()
