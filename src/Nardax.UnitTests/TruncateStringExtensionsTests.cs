@@ -82,5 +82,15 @@ namespace Nardax.Tests
 
             Assert.AreEqual(expected, result);
         }
+
+        [TestMethod]
+        public void AddCharBetween()
+        {
+            string testString = null;
+            var result = testString.AddCharBetween('-');
+            string expected = null;
+
+            Assert.AreEqual(expected, result);
+        }
     }
 }
