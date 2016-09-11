@@ -53,5 +53,14 @@ namespace Nardax.Tests
 
             Assert.AreEqual(expected, result);
         }
+
+        [TestMethod]
+        public void RepeatMe()
+        {
+            var result = "käbbel".RepeatMe(3);
+            var expected = "käbbelkäbbelkäbbel";
+
+            Assert.AreEqual(expected, result);
+        }
     }
 }
